@@ -1,0 +1,43 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.shading {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.shading h1 {
+    color: #17a2b8;
+}
+
+input {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+#warningMsg {
+    display: none;
+}
+
+#registEmail {
+    display: none;
+}
+
+#registPassword {
+    display: none;
+}
+
+#registName {
+    display: none;
+}
+
+#welcome {
+    display: none;
+}

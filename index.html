@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login System</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="enteringData">
+        <div class="container text-center w-75 shading my-5">
+            <div class="p-5 w-75 m-auto">
+                <h1 class="p-1 text-center font-weight-bold">Smart Login System</h1>
+                <div class="form-group">
+                    <input type="email" id="signInEmail" class="form-control m-2 py-3" placeholder="Enter your Email">
+                    <input type="password" id="signInPassword" class="form-control m-2 py-3" placeholder="Enter your password">
+                    <input class="form-control m-2 py-3" type="text" id="registName" placeholder="Enter your name">
+                    <input type="email" id="registEmail" class="form-control m-2 py-3" placeholder="Enter your Email">
+                    <input type="password" id="registPassword" class="form-control m-2 py-3" placeholder="Enter your password">
+                </div>
+                <p class="text-danger font-weight-light mb-3" id="warningMsg">email already exists</p>
+                <button type="submit" class="btn btn-lg m-2 w-100 btn-outline-primary" id="signingButton">login</button>
+                <span class="havingAccount">Don't have an account ?</span>
+                <a id="signingLink" class="text-white">sign up</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="welcome">
+        <nav class="navbar navbar-expand-lg  shading mb-5 justify-content-between p-3">
+            <a class="navbar-brand text-white ml-5 " href="#">SMART LOGIN</a>
+            <button class="btn btn-outline-warning my-2 mr-5 " type="submit" id="logOut">log out</button>
+        </nav>
+        <div id="welcomeCaption"></div>
+    </div>
+
+    <script src="js/script.js "></script>
+</body>
+
+</html>
